@@ -10,6 +10,6 @@ class Triangle
   def kind
     binding.pry 
     @sides.all? {|side| side == side}
-      puts side 
+      
   end 
 end
