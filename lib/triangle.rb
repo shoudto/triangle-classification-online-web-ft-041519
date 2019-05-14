@@ -21,6 +21,8 @@ class Triangle
       
     else @side_1 != @side_2 && @side_2 != @side_3
       :scalene
+      
+    elsif 
     end 
   end
   
