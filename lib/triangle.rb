@@ -22,9 +22,9 @@ class Triangle
     elsif @side_1 != @side_2 && @side_2 != @side_3
       :scalene
     end 
+  end
+  
+  class TriangleError < StandardError
   end 
 end
 
-class TriangleError < StandardError
-  
-end 
