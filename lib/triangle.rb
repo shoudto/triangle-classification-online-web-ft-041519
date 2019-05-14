@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind
-    binding.pry 
+   
     @sides.all? {|side| side}
       
   end 
