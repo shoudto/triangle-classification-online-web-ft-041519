@@ -14,9 +14,9 @@ class Triangle
   def kind
    # binding.pry 
     if (side_1 == side_2) && (side_1 == side_3)
-      puts "equal triangle"
+       "equal triangle"
       else  
-        "you suck"
+        "isosceles"
     end 
   end 
 end
