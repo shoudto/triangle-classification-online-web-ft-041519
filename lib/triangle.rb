@@ -24,3 +24,7 @@ class Triangle
     end 
   end 
 end
+
+class TriangleError 
+  
+end 
