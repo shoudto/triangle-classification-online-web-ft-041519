@@ -9,7 +9,7 @@ class Triangle
   
   def kind
     binding.pry 
-    @sides.all? {|side| side == side}
+    @sides.all? {|side| side}
       
   end 
 end
