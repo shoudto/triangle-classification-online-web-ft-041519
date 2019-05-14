@@ -12,8 +12,10 @@ class Triangle
   end 
   
   def kind
-    #binding.pry 
-    if @side_1 == @side_2 && @side_2 == @side_3
+    #binding.pry
+    
+    
+    elsif @side_1 == @side_2 && @side_2 == @side_3
       :equilateral
       
     elsif @side_1 == @side_2 || @side_2 == @side_3 || @side_1 == @side_3
